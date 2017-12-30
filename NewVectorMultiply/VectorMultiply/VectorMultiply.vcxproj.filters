@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="VectorMultiply.cu">
+      <Filter>func</Filter>
+    </CudaCompile>
+    <CudaCompile Include="MaxVectorComp.cu">
+      <Filter>func</Filter>
+    </CudaCompile>
+    <CudaCompile Include="DataRead2.cu">
+      <Filter>func</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HANDLERROR_H.cuh">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxVectorComp.cuh">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="DataRead2.cuh">
+      <Filter>head</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="head">
+      <UniqueIdentifier>{047ca4f0-3fa9-4050-ae8b-1baaf9cb86ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{3abb2b8d-f03f-46b5-8138-8453f8330fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="func">
+      <UniqueIdentifier>{550540f9-9662-4486-9c33-adfbf787bd50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AImagLoopCrossCUDA.dat">
+      <Filter>data</Filter>
+    </None>
+    <None Include="ARealLoopCrossCUDA.dat">
+      <Filter>data</Filter>
+    </None>
+    <None Include="SImagLoopCrossCUDA.dat">
+      <Filter>data</Filter>
+    </None>
+    <None Include="SRealLoopCrossCUDA.dat">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+</Project>
